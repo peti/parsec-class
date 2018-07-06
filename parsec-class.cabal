@@ -5,8 +5,7 @@ license:       MIT
 license-file:  LICENSE
 author:        Peter Simons
 maintainer:    simons@cryp.to
-tested-with:   GHC == 7.0.4, GHC == 7.4.2, GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.3,
-               GHC == 8.0.2, GHC == 8.2.2, GHC == 8.4.3
+tested-with:   GHC == 8.0.2, GHC == 8.2.2, GHC == 8.4.3
 category:      Text
 homepage:      https://github.com/peti/parsec-class
 build-type:    Simple
@@ -16,7 +15,7 @@ library
   exposed-modules:  Text.Parsec.Class
                     Text.Parsec.Class.Orphans
   hs-source-dirs:   src
-  build-depends:    base < 5, parsec >= 3
+  build-depends:    base >= 4.9 && < 5, parsec >= 3
   default-language: Haskell2010
   other-extensions: RankNTypes
                     FlexibleContexts
