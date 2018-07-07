@@ -1,6 +1,6 @@
-# parsec-parser
+# parsec-class
 
-[![github release](https://img.shields.io/github/release/peti/parsec-parser.svg?label=current+release)](https://github.com/peti/parsec-parser/releases)
-[![hackage release](https://img.shields.io/hackage/v/parsec-parser.svg?label=hackage)](http://hackage.haskell.org/package/parsec-parser)
-[![stackage LTS package](http://stackage.org/package/parsec-parser/badge/lts)](http://stackage.org/lts/package/parsec-parser)
-[![travis build status](https://img.shields.io/travis/peti/parsec-parser/master.svg?label=travis+build)](https://travis-ci.org/peti/parsec-parser)
+[![hackage release](https://img.shields.io/hackage/v/parsec-class.svg?label=hackage)](http://hackage.haskell.org/package/parsec-class)
+[![stackage LTS package](http://stackage.org/package/parsec-class/badge/lts)](http://stackage.org/lts/package/parsec-class)
+[![stackage Nightly package](http://stackage.org/package/parsec-class/badge/nightly)](http://stackage.org/nightly/package/parsec-class)
+[![travis build status](https://img.shields.io/travis/peti/parsec-class/master.svg?label=travis+build)](https://travis-ci.org/peti/parsec-class)
