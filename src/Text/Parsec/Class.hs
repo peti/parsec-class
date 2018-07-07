@@ -1,10 +1,12 @@
 {-# LANGUAGE FlexibleContexts, RankNTypes #-}   -- for 'CharParser'
 
--- | 'HasParser' is a simple type class that provides easy access to Parsec
--- parsers for types that are instances of this class. Combined with the
--- 'parseM' and 'parse' convenience functions, this makes parsing simple.
--- Unlike 'Read', Parsec returns reasonable error messages in case of failure
--- and it offers a rich set of combinators and extension library for re-use.
+-- | 'HasParser' can be considered a dual to 'Pretty' like 'Read' is to 'Show'.
+-- The class provides "Data.Parsec" parsers for its instances that construct
+-- the type from its textual representation. Combined with the 'parseM' and
+-- 'parse' convenience functions, this class makes parsing simple. Unlike
+-- 'Read', Parsec parsers return reasonable error messages in case of failure.
+-- Also, there is a rich set of combinators and additional libraries available
+-- for re-use.
 
 module Text.Parsec.Class
   ( CharParser, HasParser(parser), ErrorContext
@@ -25,7 +27,7 @@ import Numeric.Natural ( Natural )
 import Text.Parsec hiding ( parse )
 
 -- | A simplified 'ParsecT' parser that consumes some kind of character stream
--- without requiring a state.
+-- without requiring any particular state state.
 
 type CharParser st input m a = Stream st m Char => ParsecT st input m a
 

@@ -2,8 +2,8 @@ name:          parsec-class
 version:       1.0.0.0
 synopsis:      Class of types that can be constructed from their text representation
 description:   This library provides the type class 'HasParser' as a dual to 'Pretty'.
-               Instances of this class provide a parser parser than can be used to
-               construct such the type from its text representation.
+               Instances of this class provide a parser than can be used to construct the
+               type from its text representation.
 license:       MIT
 license-file:  LICENSE
 author:        Peter Simons
