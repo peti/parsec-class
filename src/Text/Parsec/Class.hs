@@ -18,8 +18,6 @@ module Text.Parsec.Class
 
 import Prelude hiding ( fail )
 
-import Text.Parsec.Class.Orphans ( )   -- TODO: This is unnecessary.
-
 import Control.Exception ( throw )
 import Control.Monad.Fail
 import Data.Functor.Identity
