@@ -8,9 +8,8 @@ license:       MIT
 license-file:  LICENSE
 author:        Peter Simons
 maintainer:    simons@cryp.to
-tested-with:   GHC == 8.0.2, GHC == 8.2.2, GHC == 8.4.4, GHC == 8.6.5, GHC == 8.8.4,
-               GHC == 8.10.7, GHC == 9.0.2, GHC == 9.2.8, GHC == 9.4.8, GHC == 9.6.4,
-               GHC == 9.8.1
+tested-with:   GHC == 8.2.2, GHC == 8.4.4, GHC == 8.6.5, GHC == 8.8.4, GHC == 8.10.7
+               GHC == 9.0.2, GHC == 9.2.8, GHC == 9.4.8, GHC == 9.6.4, GHC == 9.8.1
 category:      Text
 homepage:      https://github.com/peti/parsec-class
 bug-reports:   https://github.com/peti/parsec-class/issues
