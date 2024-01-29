@@ -1,4 +1,5 @@
 {-# LANGUAGE FlexibleContexts, RankNTypes #-}   -- for 'CharParser'
+{-# LANGUAGE CPP #-}
 
 -- | 'HasParser' can be considered a dual to 'Pretty' like 'Read' is to 'Show'.
 -- The class provides "Data.Parsec" parsers for its instances that construct
@@ -18,7 +19,9 @@ module Text.Parsec.Class
 
 import Prelude hiding ( fail )
 
-import Text.Parsec.Class.Orphans ( )   -- TODO: This is unnecessary.
+#if !MIN_VERSION_parsec(3,1,17)
+import Text.Parsec.Class.Orphans ( )
+#endif
 
 import Control.Exception ( throw )
 import Control.Monad.Fail
